@@ -1,0 +1,57 @@
+body{
+    background-color: bisque;
+    marign:0;
+    background-image:url(https://th.bing.com/th/id/OIP.abLNh2TyNxV5wJ9MKU3kswHaEK?rs=1&pid=ImgDetMain); */ */
+  background-image:linear-gradient(violet,red,green,yellow);
+  background-image:radial-gradient(pink,green,orange);
+}
+.main-div{
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(4,200px);
+}
+.main-div div{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border-radius:20px;
+    margin:5px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+    box-shadow:6px 6px;
+}
+
+.navbar{
+    background-color: aqua;
+    padding:4px;
+    display:flex;
+    justify-content:space-between;
+    padding:0px 20px;
+
+}
+.navbar img{
+    height:40px;
+    width:40px;
+    border-radius:40px;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+h1{
+    background-color: blue;
+    display:inline;
+    opacity:1;
+    text-shadow:2px 2px grey;
+}
+a{
+    display:block;
+}

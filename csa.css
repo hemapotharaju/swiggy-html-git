@@ -1,0 +1,14 @@
+/* hema css styles*/
+  .my-content {
+    boarder: 2px solid green;
+    padding: 5px 10px 20px 30px;
+    color: white;
+    background-color:black;
+ }  
+ .my-content:hover{
+    background-color: red(220, 55, 55);
+    boarder-radius:20px;
+ }
+ .my-img{
+    boarder-radius:50%;
+ }

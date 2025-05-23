@@ -1,0 +1,66 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: rgb(177, 129, 222);
+    boarder-radius:30px;
+    box-shadow:5px 5px 15px ;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+  animation-name:my-effects;
+  animation-duration: 5s;
+  animation-delay:3s;
+  animation-timing-function:linear;
+  animation-integration-count:infinity;
+
+}
+
+
+   
+@keyframes my-effects{
+0%{
+     background-color: pink;
+}
+50%{
+background-color: orange;
+}
+100%{
+background-color: blue;
+}
+
+}
+
+
+ 
+  div:hover{
+  background-color: aqua;
+ height:400px
+transform:scale(5)
+} 
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
